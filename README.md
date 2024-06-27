@@ -10,19 +10,19 @@ The justification for using a fine-tuned model over a general ChatGPT model is t
 
 ## Repository Structure
 
-├── Resources
+|-- Resources
 
-│ ├── 50_elementary_school_learning_topics.txt
+│ |-- 50_elementary_school_learning_topics.txt
 
-│ ├── 50_learning_disorders_combinations.txt
+│ |-- 50_learning_disorders_combinations.txt
 
-├── data_set.json
+|-- data_set.json
 
-├── sample.json
+|-- sample.json
 
-├── README.md
+|-- README.md
 
-└── LICENSE
+|-- LICENSE
 
 ### Resources Directory
 
