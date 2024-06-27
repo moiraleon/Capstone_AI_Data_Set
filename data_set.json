@@ -654,4 +654,332 @@
       }
     ]
   }
-  
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Multiplication and Division suitable for students with Dyslexia and Dyscalculia, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Math - Multiplication and Division",
+          "modified_lesson_content": {
+            "title": "Introduction to Multiplication and Division",
+            "overview": "This lesson introduces students to multiplication and division. They will learn to understand and solve basic multiplication and division problems.",
+            "objectives": [
+              "Understand the concept of multiplication as repeated addition",
+              "Understand the concept of division as repeated subtraction",
+              "Solve basic multiplication and division problems"
+            ],
+            "resources": [
+              "Multiplication and division flashcards",
+              "Worksheets",
+              "Manipulatives"
+            ],
+            "activities": [
+              {
+                "description": "Use flashcards to introduce multiplication and division.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dyscalculia": "Provide step-by-step explanations and visual aids."
+                }
+              },
+              {
+                "description": "Solve multiplication and division problems using manipulatives.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review multiplication and division with a problem-solving activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step explanations and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Solar System and Planets suitable for students with Dyslexia and Dysgraphia, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "Science - Solar System",
+          "modified_lesson_content": {
+            "title": "Solar System and Planets",
+            "overview": "This lesson introduces students to the solar system and the planets. Students will learn about the characteristics of each planet and their positions in the solar system.",
+            "objectives": [
+              "Identify the planets in the solar system",
+              "Describe the characteristics of each planet",
+              "Understand the positions of planets in the solar system"
+            ],
+            "resources": [
+              "Solar system models",
+              "Planet fact sheets",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the solar system using models.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed fact sheets for reference."
+                }
+              },
+              {
+                "description": "Create a model of the solar system.",
+                "modifications": {
+                  "dyslexia": "Label parts clearly with large print.",
+                  "dysgraphia": "Provide step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review the solar system with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed fact sheets for reference."
+            ],
+            "dysgraphia": [
+              "Provide printed fact sheets for reference.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Parts of a Plant suitable for students with Dyslexia and Auditory Processing Disorder, for Kindergarten through Grade 2."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Kindergarten through Grade 2",
+          "subject": "Science - Parts of a Plant",
+          "modified_lesson_content": {
+            "title": "Parts of a Plant",
+            "overview": "This lesson introduces students to the parts of a plant. They will learn to identify and describe the function of each part.",
+            "objectives": [
+              "Identify the parts of a plant",
+              "Describe the function of each part",
+              "Understand the importance of each part of a plant"
+            ],
+            "resources": [
+              "Plant diagrams",
+              "Real plants",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the parts of a plant using diagrams.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "auditory_processing_disorder": "Provide written instructions and visual aids."
+                }
+              },
+              {
+                "description": "Identify parts of a real plant.",
+                "modifications": {
+                  "dyslexia": "Label parts clearly with large print.",
+                  "auditory_processing_disorder": "Use step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review the parts of a plant with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide written instructions and visual aids."
+            ],
+            "auditory_processing_disorder": [
+              "Provide written instructions and visual aids.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Historical Figures: George Washington and Abraham Lincoln suitable for students with Dyslexia and Visual Processing Disorder, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "History - Historical Figures",
+          "modified_lesson_content": {
+            "title": "Historical Figures: George Washington and Abraham Lincoln",
+            "overview": "This lesson introduces students to the lives and accomplishments of George Washington and Abraham Lincoln. Students will learn about their contributions to American history.",
+            "objectives": [
+              "Learn about the lives of George Washington and Abraham Lincoln",
+              "Understand their contributions to American history",
+              "Identify key events in their lives"
+            ],
+            "resources": [
+              "Biographies",
+              "Historical timelines",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce George Washington and Abraham Lincoln with biographies.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Create a timeline of key events in their lives.",
+                "modifications": {
+                  "dyslexia": "Provide printed timelines with large print.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review the contributions of George Washington and Abraham Lincoln with a timeline activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed timelines with large print."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Basic Phonics and Reading suitable for students with Dyslexia, ADHD, and Dyscalculia, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Language Arts - Phonics and Reading",
+          "modified_lesson_content": {
+            "title": "Basic Phonics and Reading",
+            "overview": "This lesson introduces students to basic phonics and reading skills. They will learn to recognize and read simple words.",
+            "objectives": [
+              "Recognize basic phonics sounds",
+              "Read simple words",
+              "Understand the relationship between letters and sounds"
+            ],
+            "resources": [
+              "Phonics flashcards",
+              "Reading books",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Use phonics flashcards to introduce basic sounds.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "dyscalculia": "Provide step-by-step instructions and visual aids."
+                }
+              },
+              {
+                "description": "Practice reading simple words using books.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review basic phonics and reading with a word recognition activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step instructions and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+
