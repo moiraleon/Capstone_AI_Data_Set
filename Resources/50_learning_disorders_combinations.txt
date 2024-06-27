@@ -1,0 +1,59 @@
+1. Dyslexia and ADHD
+2. Dyslexia and Dyscalculia
+3. Dyslexia and Dysgraphia
+4. Dyslexia and Auditory Processing Disorder
+5. Dyslexia and Visual Processing Disorder
+6. ADHD and Dyscalculia
+7. ADHD and Dysgraphia
+8. ADHD and Auditory Processing Disorder
+9. ADHD and Visual Processing Disorder
+10. Dyscalculia and Dysgraphia
+11. Dyscalculia and Auditory Processing Disorder
+12. Dyscalculia and Visual Processing Disorder
+13. Dysgraphia and Auditory Processing Disorder
+14. Dysgraphia and Visual Processing Disorder
+15. Auditory Processing Disorder and Visual Processing Disorder
+16. Dyslexia, ADHD, and Dyscalculia
+17. Dyslexia, ADHD, and Dysgraphia
+18. Dyslexia, ADHD, and Auditory Processing Disorder
+19. Dyslexia, ADHD, and Visual Processing Disorder
+20. Dyslexia, Dyscalculia, and Dysgraphia
+21. Dyslexia, Dyscalculia, and Auditory Processing Disorder
+22. Dyslexia, Dyscalculia, and Visual Processing Disorder
+23. Dyslexia, Dysgraphia, and Auditory Processing Disorder
+24. Dyslexia, Dysgraphia, and Visual Processing Disorder
+25. ADHD, Dyscalculia, and Dysgraphia
+26. ADHD, Dyscalculia, and Auditory Processing Disorder
+27. ADHD, Dyscalculia, and Visual Processing Disorder
+28. ADHD, Dysgraphia, and Auditory Processing Disorder
+29. ADHD, Dysgraphia, and Visual Processing Disorder
+30. Dyscalculia, Dysgraphia, and Auditory Processing Disorder
+31. Dyscalculia, Dysgraphia, and Visual Processing Disorder
+32. Dyslexia, ADHD, Dyscalculia, and Dysgraphia
+33. Dyslexia, ADHD, Dyscalculia, and Auditory Processing Disorder
+34. Dyslexia, ADHD, Dyscalculia, and Visual Processing Disorder
+35. Dyslexia, ADHD, Dysgraphia, and Auditory Processing Disorder
+36. Dyslexia, ADHD, Dysgraphia, and Visual Processing Disorder
+37. Dyslexia, Dyscalculia, Dysgraphia, and Auditory Processing Disorder
+38. Dyslexia, Dyscalculia, Dysgraphia, and Visual Processing Disorder
+39. ADHD, Dyscalculia, Dysgraphia, and Auditory Processing Disorder
+40. ADHD, Dyscalculia, Dysgraphia, and Visual Processing Disorder
+41. Dyslexia, ADHD, Auditory Processing Disorder, and Visual Processing Disorder
+42. Dyslexia, Dyscalculia, Auditory Processing Disorder, and Visual Processing Disorder
+43. ADHD, Dyscalculia, Auditory Processing Disorder, and Visual Processing Disorder
+44. Dysgraphia, Auditory Processing Disorder, and Visual Processing Disorder
+45. Nonverbal Learning Disorder and Dyslexia
+46. Nonverbal Learning Disorder and ADHD
+47. Nonverbal Learning Disorder and Dyscalculia
+48. Nonverbal Learning Disorder and Dysgraphia
+49. Nonverbal Learning Disorder and Auditory Processing Disorder
+50. Nonverbal Learning Disorder and Visual Processing Disorder
+
+
+References:
+American Psychiatric Association (APA). (2013). Diagnostic and Statistical Manual of Mental Disorders (5th ed.). Arlington, VA: American Psychiatric Publishing.
+Centers for Disease Control and Prevention (CDC). (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html
+International Dyslexia Association (IDA). (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/
+Learning Disabilities Association of America (LDA). (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/
+National Center for Learning Disabilities (NCLD). (n.d.). Types of Learning Disabilities. Retrieved from https://www.ncld.org/learn/types-of-learning-disabilities/
+National Institute of Mental Health (NIMH). (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml
