@@ -1,0 +1,95 @@
+{
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on graphing suitable for students with dyslexia and ADHD, for Kindergarten through Grade 2."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Kindergarten through Grade 2",
+          "subject": "Math - Graphing",
+          "modified_lesson_content": {
+            "title": "Graphing",
+            "overview": "This activity introduces graphing. The teacher guides students in developing questions, setting up a blank graph, interviewing other students, and filling in the graph with results.",
+            "objectives": [
+              "Create a graph",
+              "Collect five pieces of data",
+              "Fill in the graph correctly with the data",
+              "Interpret the data using a teacher-created worksheet"
+            ],
+            "resources": [
+              "Chart paper",
+              "Markers or crayons",
+              "Teacher-created worksheet",
+              "Math journals"
+            ],
+            "activities": [
+              {
+                "description": "Brainstorm as a class a list of questions to ask other students. Write questions in math journals.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids. Provide printed handouts of questions.",
+                  "ADHD": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Create a class chart with questions for graphing responses.",
+                "modifications": {
+                  "dyslexia": "Use color coding and symbols to aid comprehension.",
+                  "ADHD": "Incorporate movement, such as allowing students to stand or move while working."
+                }
+              },
+              {
+                "description": "Schedule a time with another class for students to ask questions and record answers.",
+                "modifications": {
+                  "dyslexia": "Allow extra time and use recording devices for students who struggle with writing.",
+                  "ADHD": "Ensure structured and clear instructions. Allow extra time and use recording devices."
+                }
+              },
+              {
+                "description": "Compile results on the classroom chart together.",
+                "modifications": {
+                  "dyslexia": "Use visual aids, such as icons or pictures, alongside text.",
+                  "ADHD": "Involve students in active roles to maintain engagement."
+                }
+              },
+              {
+                "description": "Use a teacher-prepared worksheet for evaluation.",
+                "modifications": {
+                  "dyslexia": "Ensure worksheets have clear, simple instructions with ample space for responses. Provide one-on-one assistance.",
+                  "ADHD": "Break tasks into smaller, manageable steps."
+                }
+              }
+            ],
+            "closure": "Extend the activity by having students create individual graphs with three questions for family members. Keep the graph in the classroom and include questions about it in morning work."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts of questions.",
+              "Allow extra time for activities.",
+              "Use recording devices for writing tasks.",
+              "Provide one-on-one assistance."
+            ],
+            "ADHD": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines.",
+              "Use positive reinforcement and minimize distractions.",
+              "Break tasks into smaller, manageable steps."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
+  
