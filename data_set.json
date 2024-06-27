@@ -2286,3 +2286,326 @@
       }
     ]
   }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Life in Colonial America suitable for students with Dyslexia and Dyscalculia, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "History - Colonial America",
+          "modified_lesson_content": {
+            "title": "Life in Colonial America",
+            "overview": "This lesson teaches students about life in Colonial America. They will learn about daily life, work, and the challenges faced by early settlers.",
+            "objectives": [
+              "Understand the daily life of early settlers",
+              "Identify the challenges faced by colonists",
+              "Describe the work and roles of people in Colonial America"
+            ],
+            "resources": [
+              "Historical artifacts",
+              "Books about Colonial America",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce life in Colonial America using historical artifacts and books.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dyscalculia": "Provide step-by-step explanations and visual aids."
+                }
+              },
+              {
+                "description": "Create a timeline of daily life in Colonial America using worksheets.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review life in Colonial America with a timeline activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step explanations and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Birds and Their Characteristics suitable for students with Dyslexia and ADHD, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Science - Birds",
+          "modified_lesson_content": {
+            "title": "Birds and Their Characteristics",
+            "overview": "This lesson teaches students about birds and their characteristics. They will learn to identify different types of birds and understand their unique features.",
+            "objectives": [
+              "Identify different types of birds",
+              "Describe the characteristics of birds",
+              "Understand the unique features of birds"
+            ],
+            "resources": [
+              "Bird posters",
+              "Bird models",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce birds and their characteristics using posters and models.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Identify birds using worksheets and models.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review bird characteristics with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Measurement of Time (Days, Weeks, Months) suitable for students with Dyslexia and Dyscalculia, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Math - Measurement of Time",
+          "modified_lesson_content": {
+            "title": "Measurement of Time",
+            "overview": "This lesson teaches students about the measurement of time in days, weeks, and months. They will learn to use calendars and understand the concept of time.",
+            "objectives": [
+              "Understand the concept of time",
+              "Identify days, weeks, and months",
+              "Use a calendar to measure time"
+            ],
+            "resources": [
+              "Calendars",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the measurement of time using calendars.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dyscalculia": "Provide step-by-step explanations and visual aids."
+                }
+              },
+              {
+                "description": "Practice identifying days, weeks, and months using worksheets.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review the measurement of time with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step explanations and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Volcanoes and Earthquakes suitable for students with Dyslexia and ADHD, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Science - Geology",
+          "modified_lesson_content": {
+            "title": "Volcanoes and Earthquakes",
+            "overview": "This lesson teaches students about volcanoes and earthquakes. They will learn about the causes and effects of these natural phenomena.",
+            "objectives": [
+              "Understand the causes of volcanoes and earthquakes",
+              "Identify the effects of these natural phenomena",
+              "Describe the structure of a volcano"
+            ],
+            "resources": [
+              "Volcano and earthquake models",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce volcanoes and earthquakes using models and posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Create a model of a volcano using provided materials.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review volcanoes and earthquakes with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Writing Letters and Emails suitable for students with Dyslexia and Dysgraphia, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Language Arts - Writing",
+          "modified_lesson_content": {
+            "title": "Introduction to Writing Letters and Emails",
+            "overview": "This lesson teaches students how to write letters and emails. They will learn the format and important elements of written communication.",
+            "objectives": [
+              "Understand the format of a letter and an email",
+              "Identify important elements of written communication",
+              "Write a simple letter and email"
+            ],
+            "resources": [
+              "Sample letters and emails",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the format of letters and emails using samples.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Write a simple letter and email using provided templates.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review writing letters and emails with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
