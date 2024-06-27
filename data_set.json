@@ -982,4 +982,327 @@
       }
     ]
   }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Life Cycle of a Butterfly suitable for students with Dyslexia and ADHD, for Kindergarten through Grade 2."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Kindergarten through Grade 2",
+          "subject": "Science - Life Cycles",
+          "modified_lesson_content": {
+            "title": "Life Cycle of a Butterfly",
+            "overview": "This lesson teaches students about the life cycle of a butterfly. They will learn about the stages of development from egg to adult butterfly.",
+            "objectives": [
+              "Identify the stages of a butterfly's life cycle",
+              "Describe the characteristics of each stage",
+              "Understand the importance of each stage in the life cycle"
+            ],
+            "resources": [
+              "Butterfly life cycle diagrams",
+              "Real caterpillars and butterflies",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the life cycle of a butterfly using diagrams.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Observe real caterpillars and butterflies.",
+                "modifications": {
+                  "dyslexia": "Label stages clearly with large print.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review the life cycle of a butterfly with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide written instructions and visual aids."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Community Helpers (Police, Firefighters, etc.) suitable for students with Dyslexia and Dysgraphia, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Social Studies - Community Helpers",
+          "modified_lesson_content": {
+            "title": "Community Helpers",
+            "overview": "This lesson introduces students to community helpers such as police officers, firefighters, and paramedics. They will learn about the roles and responsibilities of these helpers.",
+            "objectives": [
+              "Identify different community helpers",
+              "Describe the roles and responsibilities of community helpers",
+              "Understand the importance of community helpers"
+            ],
+            "resources": [
+              "Community helper posters",
+              "Books about community helpers",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce community helpers using posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Read books about community helpers.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review the roles and responsibilities of community helpers with a matching activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Measurements (Length, Weight, Volume) suitable for students with Dyslexia and Auditory Processing Disorder, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Math - Measurements",
+          "modified_lesson_content": {
+            "title": "Introduction to Measurements",
+            "overview": "This lesson introduces students to measurements of length, weight, and volume. They will learn to measure using standard units and tools.",
+            "objectives": [
+              "Understand the concept of measurement",
+              "Measure length, weight, and volume using standard units",
+              "Use measurement tools correctly"
+            ],
+            "resources": [
+              "Rulers",
+              "Scales",
+              "Measuring cups",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce measurement concepts using rulers, scales, and measuring cups.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "auditory_processing_disorder": "Provide written instructions and visual aids."
+                }
+              },
+              {
+                "description": "Practice measuring objects using tools.",
+                "modifications": {
+                  "dyslexia": "Label tools clearly with large print.",
+                  "auditory_processing_disorder": "Use step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review measurement concepts with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide written instructions and visual aids."
+            ],
+            "auditory_processing_disorder": [
+              "Provide written instructions and visual aids.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Recycling and Environmental Conservation suitable for students with Dyslexia and Visual Processing Disorder, for Grades 2 to 4."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 2 to 4",
+          "subject": "Science - Environmental Conservation",
+          "modified_lesson_content": {
+            "title": "Recycling and Environmental Conservation",
+            "overview": "This lesson teaches students about the importance of recycling and environmental conservation. They will learn about different ways to reduce, reuse, and recycle.",
+            "objectives": [
+              "Understand the importance of recycling",
+              "Identify different recyclable materials",
+              "Learn ways to reduce, reuse, and recycle"
+            ],
+            "resources": [
+              "Recycling posters",
+              "Recyclable materials",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce recycling concepts using posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Sort recyclable materials into correct bins.",
+                "modifications": {
+                  "dyslexia": "Label bins clearly with large print.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review recycling concepts with a sorting activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Label bins clearly with large print."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Exploring Different Cultures suitable for students with Dyslexia and Dysgraphia, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "Social Studies - Cultures",
+          "modified_lesson_content": {
+            "title": "Exploring Different Cultures",
+            "overview": "This lesson introduces students to different cultures around the world. They will learn about cultural traditions, customs, and celebrations.",
+            "objectives": [
+              "Learn about different cultures",
+              "Understand cultural traditions and customs",
+              "Identify cultural celebrations"
+            ],
+            "resources": [
+              "Cultural artifacts",
+              "Books about different cultures",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce different cultures using artifacts and books.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Create a cultural poster to showcase a specific culture.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review cultural traditions with a poster presentation activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
 
