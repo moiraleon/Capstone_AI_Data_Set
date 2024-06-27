@@ -1306,3 +1306,333 @@
     ]
   }
 
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Simple Machines (Levers, Pulleys, etc.) suitable for students with Dyslexia, ADHD, and Dysgraphia, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Science - Simple Machines",
+          "modified_lesson_content": {
+            "title": "Simple Machines",
+            "overview": "This lesson introduces students to simple machines such as levers, pulleys, and inclined planes. They will learn how these machines make work easier.",
+            "objectives": [
+              "Identify different types of simple machines",
+              "Understand how simple machines work",
+              "Describe the function of simple machines"
+            ],
+            "resources": [
+              "Simple machine models",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce simple machines using models.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Create a simple machine model using provided materials.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review the function of simple machines with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Basic Grammar: Nouns, Verbs, and Adjectives suitable for students with Dyslexia and Visual Processing Disorder, for Grades 2 to 4."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 2 to 4",
+          "subject": "Language Arts - Grammar",
+          "modified_lesson_content": {
+            "title": "Basic Grammar: Nouns, Verbs, and Adjectives",
+            "overview": "This lesson teaches students about nouns, verbs, and adjectives. They will learn to identify and use these parts of speech in sentences.",
+            "objectives": [
+              "Identify nouns, verbs, and adjectives",
+              "Use nouns, verbs, and adjectives in sentences",
+              "Understand the function of each part of speech"
+            ],
+            "resources": [
+              "Grammar posters",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce nouns, verbs, and adjectives using posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Identify parts of speech in sentences using worksheets.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review parts of speech with an interactive activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Money and Currency suitable for students with Dyslexia and Auditory Processing Disorder, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Math - Money and Currency",
+          "modified_lesson_content": {
+            "title": "Introduction to Money and Currency",
+            "overview": "This lesson teaches students about different types of money and currency. They will learn to identify coins and bills and understand their values.",
+            "objectives": [
+              "Identify different types of money",
+              "Understand the value of coins and bills",
+              "Use money in simple transactions"
+            ],
+            "resources": [
+              "Play money",
+              "Coin and bill posters",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce different types of money using play money and posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "auditory_processing_disorder": "Provide written instructions and visual aids."
+                }
+              },
+              {
+                "description": "Practice using money in simple transactions with play money.",
+                "modifications": {
+                  "dyslexia": "Label coins and bills clearly with large print.",
+                  "auditory_processing_disorder": "Use step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review money concepts with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Label coins and bills clearly with large print."
+            ],
+            "auditory_processing_disorder": [
+              "Provide written instructions and visual aids.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Human Body Systems (Digestive, Circulatory, etc.) suitable for students with Dyslexia and Dyscalculia, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "Science - Human Body Systems",
+          "modified_lesson_content": {
+            "title": "Human Body Systems",
+            "overview": "This lesson teaches students about the different systems in the human body. They will learn about the digestive, circulatory, and respiratory systems.",
+            "objectives": [
+              "Identify different body systems",
+              "Understand the function of each system",
+              "Describe the organs involved in each system"
+            ],
+            "resources": [
+              "Human body system posters",
+              "Model organs",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce human body systems using posters and model organs.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dyscalculia": "Provide step-by-step explanations and visual aids."
+                }
+              },
+              {
+                "description": "Identify organs involved in each body system using models.",
+                "modifications": {
+                  "dyslexia": "Label organs clearly with large print.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review human body systems with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Label organs clearly with large print."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step explanations and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Ecosystems and Food Chains suitable for students with Dyslexia and ADHD, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Science - Ecosystems",
+          "modified_lesson_content": {
+            "title": "Ecosystems and Food Chains",
+            "overview": "This lesson teaches students about ecosystems and food chains. They will learn about the relationships between organisms and their environment.",
+            "objectives": [
+              "Understand the concept of an ecosystem",
+              "Identify different types of ecosystems",
+              "Describe the food chain and its components"
+            ],
+            "resources": [
+              "Ecosystem posters",
+              "Food chain diagrams",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce ecosystems and food chains using posters and diagrams.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Create a food chain diagram using provided materials.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review ecosystems and food chains with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
