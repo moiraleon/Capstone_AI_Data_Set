@@ -2609,3 +2609,326 @@
       }
     ]
   }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on The Importance of Friendship and Teamwork suitable for students with Dyslexia and ADHD, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Social Skills - Friendship and Teamwork",
+          "modified_lesson_content": {
+            "title": "The Importance of Friendship and Teamwork",
+            "overview": "This lesson teaches students about the importance of friendship and teamwork. They will learn how to be a good friend and work effectively in a team.",
+            "objectives": [
+              "Understand the qualities of a good friend",
+              "Learn the benefits of teamwork",
+              "Practice teamwork skills through activities"
+            ],
+            "resources": [
+              "Friendship and teamwork posters",
+              "Books about friendship",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the qualities of a good friend using posters and books.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Practice teamwork skills through interactive activities.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review the importance of friendship and teamwork with a group activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Basic Coding and Programming suitable for students with Dyslexia and Dyscalculia, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "Technology - Coding",
+          "modified_lesson_content": {
+            "title": "Basic Coding and Programming",
+            "overview": "This lesson introduces students to basic coding and programming concepts. They will learn to write simple code using visual programming tools.",
+            "objectives": [
+              "Understand basic coding concepts",
+              "Write simple code using visual programming tools",
+              "Debug simple coding errors"
+            ],
+            "resources": [
+              "Computers",
+              "Visual programming software",
+              "Instructional handouts"
+            ],
+            "activities": [
+              {
+                "description": "Introduce basic coding concepts using instructional handouts and software.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dyscalculia": "Provide step-by-step explanations and visual aids."
+                }
+              },
+              {
+                "description": "Write simple code using visual programming tools.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review basic coding concepts with a hands-on coding activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step explanations and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Personal Hygiene suitable for students with Dyslexia and ADHD, for Kindergarten through Grade 2."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Kindergarten through Grade 2",
+          "subject": "Health - Personal Hygiene",
+          "modified_lesson_content": {
+            "title": "Introduction to Personal Hygiene",
+            "overview": "This lesson teaches students about personal hygiene. They will learn the importance of keeping clean and healthy habits.",
+            "objectives": [
+              "Understand the importance of personal hygiene",
+              "Identify healthy hygiene practices",
+              "Demonstrate proper hygiene habits"
+            ],
+            "resources": [
+              "Hygiene posters",
+              "Hygiene kits",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce personal hygiene using posters and hygiene kits.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Practice proper hygiene habits using hygiene kits.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review personal hygiene with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Insects and Their Roles in the Environment suitable for students with Dyslexia and Dysgraphia, for Grades 2 to 4."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 2 to 4",
+          "subject": "Science - Insects",
+          "modified_lesson_content": {
+            "title": "Insects and Their Roles in the Environment",
+            "overview": "This lesson teaches students about insects and their roles in the environment. They will learn about different types of insects and how they contribute to the ecosystem.",
+            "objectives": [
+              "Identify different types of insects",
+              "Understand the roles of insects in the environment",
+              "Describe the characteristics of insects"
+            ],
+            "resources": [
+              "Insect posters",
+              "Insect models",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce insects and their roles using posters and models.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Identify insects using worksheets and models.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review insect roles with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on The Importance of Exercise suitable for students with Dyslexia and ADHD, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Health - Exercise",
+          "modified_lesson_content": {
+            "title": "The Importance of Exercise",
+            "overview": "This lesson teaches students about the importance of exercise. They will learn the benefits of regular physical activity and how to incorporate exercise into their daily routines.",
+            "objectives": [
+              "Understand the importance of exercise",
+              "Identify different types of physical activities",
+              "Incorporate exercise into daily routines"
+            ],
+            "resources": [
+              "Exercise posters",
+              "Exercise equipment",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the importance of exercise using posters and equipment.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Practice different types of physical activities using provided equipment.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review the importance of exercise with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
