@@ -1636,3 +1636,331 @@
       }
     ]
   }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Maps and Directions (North, South, East, West) suitable for students with Dyslexia and Dysgraphia, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Geography - Maps and Directions",
+          "modified_lesson_content": {
+            "title": "Maps and Directions",
+            "overview": "This lesson teaches students about maps and directions. They will learn to use a compass and identify cardinal directions.",
+            "objectives": [
+              "Understand the concept of a map",
+              "Identify cardinal directions",
+              "Use a compass to find directions"
+            ],
+            "resources": [
+              "Maps",
+              "Compasses",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce maps and directions using maps and compasses.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Practice using a compass to find directions.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review maps and directions with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Primary and Secondary Colors suitable for students with Dyslexia and Visual Processing Disorder, for Kindergarten through Grade 2."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Kindergarten through Grade 2",
+          "subject": "Art - Colors",
+          "modified_lesson_content": {
+            "title": "Primary and Secondary Colors",
+            "overview": "This lesson teaches students about primary and secondary colors. They will learn to identify and mix colors to create new ones.",
+            "objectives": [
+              "Identify primary colors",
+              "Identify secondary colors",
+              "Mix primary colors to create secondary colors"
+            ],
+            "resources": [
+              "Color wheels",
+              "Paints",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce primary and secondary colors using color wheels.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Mix primary colors to create secondary colors using paints.",
+                "modifications": {
+                  "dyslexia": "Label colors clearly with large print.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review primary and secondary colors with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Label colors clearly with large print."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Fractions suitable for students with Dyslexia, ADHD, and Dyscalculia, for Grades 2 to 4."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 2 to 4",
+          "subject": "Math - Fractions",
+          "modified_lesson_content": {
+            "title": "Introduction to Fractions",
+            "overview": "This lesson introduces students to fractions. They will learn to identify, compare, and create fractions using visual aids and manipulatives.",
+            "objectives": [
+              "Understand the concept of fractions",
+              "Identify fractions in various forms",
+              "Compare and create fractions using visual aids"
+            ],
+            "resources": [
+              "Fraction circles",
+              "Fraction strips",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Use fraction circles to introduce the concept of fractions.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "dyscalculia": "Provide step-by-step explanations and visual aids."
+                }
+              },
+              {
+                "description": "Create and compare fractions using fraction strips.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review the concept of fractions with a hands-on activity using manipulatives."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "dyscalculia": [
+              "Provide step-by-step explanations and visual aids.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Safety Rules (Home, School, Online) suitable for students with Dyslexia and Visual Processing Disorder, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Health - Safety Rules",
+          "modified_lesson_content": {
+            "title": "Safety Rules",
+            "overview": "This lesson teaches students about safety rules at home, school, and online. They will learn important safety practices to keep themselves safe in different environments.",
+            "objectives": [
+              "Understand safety rules at home, school, and online",
+              "Identify important safety practices",
+              "Apply safety rules in different environments"
+            ],
+            "resources": [
+              "Safety rule posters",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce safety rules using posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Practice safety scenarios with interactive activities.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review safety rules with an interactive safety game."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Poetry suitable for students with Dyslexia and Auditory Processing Disorder, for Grades 2 to 4."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 2 to 4",
+          "subject": "Language Arts - Poetry",
+          "modified_lesson_content": {
+            "title": "Introduction to Poetry",
+            "overview": "This lesson introduces students to poetry. They will learn about different types of poems and poetic devices.",
+            "objectives": [
+              "Identify different types of poems",
+              "Understand poetic devices",
+              "Write simple poems"
+            ],
+            "resources": [
+              "Poetry books",
+              "Examples of different types of poems",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce different types of poems using examples.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "auditory_processing_disorder": "Provide written instructions and visual aids."
+                }
+              },
+              {
+                "description": "Write simple poems using provided templates.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "auditory_processing_disorder": "Use step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review different types of poems with a poetry reading activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "auditory_processing_disorder": [
+              "Provide written instructions and visual aids.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
