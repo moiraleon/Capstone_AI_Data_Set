@@ -325,4 +325,333 @@
       }
     ]
   }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Animal Habitats suitable for students with ADHD and Dyscalculia, for Grades 2 to 4."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 2 to 4",
+          "subject": "Science - Animal Habitats",
+          "modified_lesson_content": {
+            "title": "Animal Habitats",
+            "overview": "This lesson introduces students to different animal habitats. Students will learn about the characteristics of various habitats and the animals that live there.",
+            "objectives": [
+              "Identify different animal habitats",
+              "Describe the characteristics of each habitat",
+              "Understand the relationship between animals and their habitats"
+            ],
+            "resources": [
+              "Habitat posters",
+              "Animal figurines",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce different animal habitats using posters.",
+                "modifications": {
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "dyscalculia": "Use visual aids and step-by-step explanations."
+                }
+              },
+              {
+                "description": "Match animal figurines to their respective habitats.",
+                "modifications": {
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "dyscalculia": "Provide visual aids and clear instructions."
+                }
+              }
+            ],
+            "closure": "Review the characteristics of each habitat with a matching game."
+          },
+          "modifications": {
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "dyscalculia": [
+              "Use visual aids and step-by-step explanations.",
+              "Provide clear instructions and visual aids."
+            ]
+          },
+          "references": [
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Telling Time suitable for students with ADHD and Dysgraphia, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Math - Telling Time",
+          "modified_lesson_content": {
+            "title": "Telling Time",
+            "overview": "This lesson teaches students how to tell time on analog and digital clocks. Students will practice reading and setting clocks to the correct time.",
+            "objectives": [
+              "Understand the concept of hours and minutes",
+              "Read time on analog and digital clocks",
+              "Set clocks to the correct time"
+            ],
+            "resources": [
+              "Analog clocks",
+              "Digital clocks",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce telling time with analog clocks.",
+                "modifications": {
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "dysgraphia": "Provide large, clear clocks for practice."
+                }
+              },
+              {
+                "description": "Practice setting digital clocks to the correct time.",
+                "modifications": {
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "dysgraphia": "Use clocks with clear, bold numbers."
+                }
+              }
+            ],
+            "closure": "Review telling time with a clock-setting game."
+          },
+          "modifications": {
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "dysgraphia": [
+              "Provide large, clear clocks for practice.",
+              "Use clocks with clear, bold numbers."
+            ]
+          },
+          "references": [
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Basic Shapes and Geometry suitable for students with ADHD and Auditory Processing Disorder, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Math - Shapes and Geometry",
+          "modified_lesson_content": {
+            "title": "Basic Shapes and Geometry",
+            "overview": "This lesson introduces students to basic shapes and geometry. They will learn to identify, name, and describe various shapes.",
+            "objectives": [
+              "Identify basic shapes",
+              "Name different shapes",
+              "Describe the properties of shapes"
+            ],
+            "resources": [
+              "Shape cutouts",
+              "Geometry worksheets",
+              "Interactive shape games"
+            ],
+            "activities": [
+              {
+                "description": "Introduce basic shapes using cutouts.",
+                "modifications": {
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "auditory_processing_disorder": "Provide written instructions and visual aids."
+                }
+              },
+              {
+                "description": "Describe shapes and their properties using worksheets.",
+                "modifications": {
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "auditory_processing_disorder": "Use step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review shapes with an interactive shape game."
+          },
+          "modifications": {
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "auditory_processing_disorder": [
+              "Provide written instructions and visual aids.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Healthy Eating and Nutrition suitable for students with ADHD and Visual Processing Disorder, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Health - Nutrition",
+          "modified_lesson_content": {
+            "title": "Healthy Eating and Nutrition",
+            "overview": "This lesson teaches students about healthy eating and nutrition. They will learn about different food groups and the importance of balanced meals.",
+            "objectives": [
+              "Identify different food groups",
+              "Understand the importance of a balanced diet",
+              "Create a balanced meal plan"
+            ],
+            "resources": [
+              "Food pyramid posters",
+              "Nutrition worksheets",
+              "Interactive meal planning activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce healthy eating with food pyramid posters.",
+                "modifications": {
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Create balanced meal plans using interactive activities.",
+                "modifications": {
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review healthy eating with a meal planning game."
+          },
+          "modifications": {
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Weather Patterns and Seasons suitable for students with Dyslexia and ADHD, for Kindergarten through Grade 2."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Kindergarten through Grade 2",
+          "subject": "Science - Weather and Seasons",
+          "modified_lesson_content": {
+            "title": "Weather Patterns and Seasons",
+            "overview": "This lesson introduces students to different weather patterns and seasons. Students will learn about the characteristics of each season and common weather phenomena.",
+            "objectives": [
+              "Identify different weather patterns",
+              "Describe the characteristics of each season",
+              "Understand the relationship between weather and seasons"
+            ],
+            "resources": [
+              "Weather and seasons posters",
+              "Weather charts",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce different weather patterns using posters.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Create weather charts to track daily weather.",
+                "modifications": {
+                  "dyslexia": "Provide printed labels and visual aids.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review the characteristics of each season with a weather chart activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed labels and visual aids."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
   
