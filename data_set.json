@@ -64,3 +64,265 @@
       }
     ]
   }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on The Water Cycle suitable for students with Dyslexia and Dyscalculia, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Science - The Water Cycle",
+          "modified_lesson_content": {
+            "title": "The Water Cycle",
+            "overview": "This lesson introduces the water cycle. Students will learn about evaporation, condensation, and precipitation through interactive activities.",
+            "objectives": [
+              "Identify the stages of the water cycle",
+              "Understand the processes of evaporation, condensation, and precipitation"
+            ],
+            "resources": [
+              "Water cycle diagram",
+              "Interactive water cycle model",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the water cycle with a visual diagram.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids. Provide printed handouts of diagrams.",
+                  "dyscalculia": "Use step-by-step explanations and allow extra time for activities."
+                }
+              },
+              {
+                "description": "Create a model of the water cycle using interactive materials.",
+                "modifications": {
+                  "dyslexia": "Label parts of the model clearly with large print.",
+                  "dyscalculia": "Use hands-on activities to reinforce concepts."
+                }
+              }
+            ],
+            "closure": "Review the stages of the water cycle and have students explain each stage using their models."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts of diagrams.",
+              "Allow extra time for activities."
+            ],
+            "dyscalculia": [
+              "Use step-by-step explanations.",
+              "Allow extra time for activities.",
+              "Use hands-on activities to reinforce concepts."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Basic Geography: Continents and Oceans suitable for students with Dyslexia and Dysgraphia, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Geography - Continents and Oceans",
+          "modified_lesson_content": {
+            "title": "Basic Geography: Continents and Oceans",
+            "overview": "This lesson introduces students to the continents and oceans of the world. Students will learn to identify and locate each continent and ocean on a map.",
+            "objectives": [
+              "Identify the seven continents",
+              "Identify the five oceans",
+              "Locate continents and oceans on a map"
+            ],
+            "resources": [
+              "World map",
+              "Flashcards",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Use a large world map to introduce the continents and oceans.",
+                "modifications": {
+                  "dyslexia": "Use visual aids and large, clear fonts.",
+                  "dysgraphia": "Provide printed labels for students to place on the map."
+                }
+              },
+              {
+                "description": "Use flashcards to reinforce the names and locations of continents and oceans.",
+                "modifications": {
+                  "dyslexia": "Use color-coded flashcards to aid memory.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review the continents and oceans with a map quiz game."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use visual aids and large, clear fonts.",
+              "Provide printed labels for students to place on the map.",
+              "Use color-coded flashcards to aid memory."
+            ],
+            "dysgraphia": [
+              "Provide printed labels for students to place on the map.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Plant Life Cycles suitable for students with Dyslexia and Auditory Processing Disorder, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "Science - Plant Life Cycles",
+          "modified_lesson_content": {
+            "title": "Plant Life Cycles",
+            "overview": "This lesson covers the life cycles of plants. Students will learn about the stages of plant growth from seed to mature plant.",
+            "objectives": [
+              "Identify the stages of plant growth",
+              "Understand the process of photosynthesis",
+              "Recognize the importance of each stage in the plant life cycle"
+            ],
+            "resources": [
+              "Plant life cycle diagrams",
+              "Seed packets",
+              "Soil and pots"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the plant life cycle with diagrams and real seeds.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "auditory_processing_disorder": "Provide written instructions and visual aids."
+                }
+              },
+              {
+                "description": "Plant seeds and observe their growth over time.",
+                "modifications": {
+                  "dyslexia": "Label stages clearly with large print.",
+                  "auditory_processing_disorder": "Use step-by-step visual guides."
+                }
+              }
+            ],
+            "closure": "Review the stages of the plant life cycle with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide written instructions and visual aids."
+            ],
+            "auditory_processing_disorder": [
+              "Provide written instructions and visual aids.",
+              "Use step-by-step visual guides."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "National Institute of Mental Health. (n.d.). Attention-Deficit/Hyperactivity Disorder. Retrieved from https://www.nimh.nih.gov/health/topics/attention-deficit-hyperactivity-disorder-adhd/index.shtml"
+          ]
+        }
+      }
+    ]
+  }
+
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Fractions suitable for students with Dyslexia and Visual Processing Disorder, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Math - Fractions",
+          "modified_lesson_content": {
+            "title": "Introduction to Fractions",
+            "overview": "This lesson introduces students to fractions. They will learn to identify, compare, and create fractions using visual aids and manipulatives.",
+            "objectives": [
+              "Understand the concept of fractions",
+              "Identify fractions in various forms",
+              "Compare and create fractions using visual aids"
+            ],
+            "resources": [
+              "Fraction circles",
+              "Fraction strips",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Use fraction circles to introduce the concept of fractions.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Create and compare fractions using fraction strips.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review the concept of fractions with a hands-on activity using manipulatives."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  
