@@ -2932,3 +2932,325 @@
       }
     ]
   }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Types of Rocks and Minerals suitable for students with Dyslexia and Dysgraphia, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Science - Geology",
+          "modified_lesson_content": {
+            "title": "Types of Rocks and Minerals",
+            "overview": "This lesson teaches students about different types of rocks and minerals. They will learn to identify and classify various rocks and minerals.",
+            "objectives": [
+              "Identify different types of rocks and minerals",
+              "Classify rocks and minerals based on their properties",
+              "Understand the formation of rocks and minerals"
+            ],
+            "resources": [
+              "Rock and mineral samples",
+              "Classification charts",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce different types of rocks and minerals using samples and charts.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Classify rocks and minerals using provided samples and worksheets.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review types of rocks and minerals with a hands-on activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Basic Economic Concepts (Needs vs. Wants) suitable for students with Dyslexia and ADHD, for Grades 3 to 5."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 3 to 5",
+          "subject": "Social Studies - Economics",
+          "modified_lesson_content": {
+            "title": "Basic Economic Concepts: Needs vs. Wants",
+            "overview": "This lesson teaches students about basic economic concepts, focusing on the difference between needs and wants. They will learn to identify and classify various goods and services.",
+            "objectives": [
+              "Understand the difference between needs and wants",
+              "Identify examples of needs and wants",
+              "Classify goods and services as needs or wants"
+            ],
+            "resources": [
+              "Economic concept posters",
+              "Worksheets",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce needs and wants using posters and examples.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Classify goods and services as needs or wants using worksheets.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review needs and wants with an interactive classification activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Simple Addition and Subtraction Word Problems suitable for students with Dyslexia and ADHD, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Math - Word Problems",
+          "modified_lesson_content": {
+            "title": "Simple Addition and Subtraction Word Problems",
+            "overview": "This lesson teaches students how to solve simple addition and subtraction word problems. They will learn to identify key information and use strategies to find solutions.",
+            "objectives": [
+              "Understand addition and subtraction word problems",
+              "Identify key information in word problems",
+              "Use strategies to solve word problems"
+            ],
+            "resources": [
+              "Word problem worksheets",
+              "Manipulatives",
+              "Interactive activities"
+            ],
+            "activities": [
+              {
+                "description": "Introduce addition and subtraction word problems using worksheets and manipulatives.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "adhd": "Keep sessions short with frequent breaks. Allow movement during activities."
+                }
+              },
+              {
+                "description": "Solve word problems using provided worksheets and manipulatives.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "adhd": "Incorporate movement, such as allowing students to move around the classroom."
+                }
+              }
+            ],
+            "closure": "Review word problem-solving strategies with an interactive activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "adhd": [
+              "Keep sessions short with frequent breaks.",
+              "Allow movement during activities.",
+              "Maintain a structured environment with predictable routines."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Centers for Disease Control and Prevention. (2020). ADHD in the Classroom. Retrieved from https://www.cdc.gov/ncbddd/adhd/school-success.html"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Introduction to Historical Events (Revolutionary War, Civil Rights Movement) suitable for students with Dyslexia and Dysgraphia, for Grades 4 to 6."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 4 to 6",
+          "subject": "History - Historical Events",
+          "modified_lesson_content": {
+            "title": "Introduction to Historical Events",
+            "overview": "This lesson teaches students about significant historical events such as the Revolutionary War and the Civil Rights Movement. They will learn about the causes, key figures, and impacts of these events.",
+            "objectives": [
+              "Understand the causes of the Revolutionary War and the Civil Rights Movement",
+              "Identify key figures in these events",
+              "Describe the impacts of these historical events"
+            ],
+            "resources": [
+              "Historical event posters",
+              "Books about the Revolutionary War and Civil Rights Movement",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce historical events using posters and books.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "dysgraphia": "Provide printed labels and visual aids."
+                }
+              },
+              {
+                "description": "Create a timeline of key events using provided materials.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "dysgraphia": "Allow oral responses instead of written."
+                }
+              }
+            ],
+            "closure": "Review historical events with a timeline activity."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "dysgraphia": [
+              "Provide printed labels and visual aids.",
+              "Allow oral responses instead of written."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Given a specific lesson topic, age range or grade of the students, and a list of diagnoses, provide the following fields in a JSON dict, where applicable: 1. \"modified_lesson_content\" (modified lesson content), 2. \"modifications\" (modifications made specifically for each diagnosis), and 3. \"references\" (APA source references used for modifications)."
+      },
+      {
+        "role": "user",
+        "content": "Provide a lesson plan on Art and Craft Projects Using Recycled Materials suitable for students with Dyslexia and Visual Processing Disorder, for Grades 1 to 3."
+      },
+      {
+        "role": "assistant",
+        "content": {
+          "age_range": "Grades 1 to 3",
+          "subject": "Art - Recycled Materials",
+          "modified_lesson_content": {
+            "title": "Art and Craft Projects Using Recycled Materials",
+            "overview": "This lesson teaches students how to create art and craft projects using recycled materials. They will learn about the importance of recycling and how to repurpose materials creatively.",
+            "objectives": [
+              "Understand the importance of recycling",
+              "Identify recyclable materials",
+              "Create art projects using recycled materials"
+            ],
+            "resources": [
+              "Recycled materials",
+              "Art supplies",
+              "Worksheets"
+            ],
+            "activities": [
+              {
+                "description": "Introduce the concept of recycling using posters and examples of recyclable materials.",
+                "modifications": {
+                  "dyslexia": "Use large, clear fonts and visual aids.",
+                  "visual_processing_disorder": "Use high-contrast visuals and clear labels."
+                }
+              },
+              {
+                "description": "Create art projects using recycled materials and art supplies.",
+                "modifications": {
+                  "dyslexia": "Provide printed handouts with clear instructions.",
+                  "visual_processing_disorder": "Ensure materials are high-contrast and clearly labeled."
+                }
+              }
+            ],
+            "closure": "Review the importance of recycling with a display of student art projects."
+          },
+          "modifications": {
+            "dyslexia": [
+              "Use large, clear fonts and visual aids.",
+              "Provide printed handouts with clear instructions."
+            ],
+            "visual_processing_disorder": [
+              "Use high-contrast visuals and clear labels.",
+              "Ensure materials are high-contrast and clearly labeled."
+            ]
+          },
+          "references": [
+            "International Dyslexia Association. (n.d.). Dyslexia Basics. Retrieved from https://dyslexiaida.org/dyslexia-basics/",
+            "Learning Disabilities Association of America. (n.d.). Types of Learning Disabilities. Retrieved from https://ldaamerica.org/types-of-learning-disabilities/"
+          ]
+        }
+      }
+    ]
+  }
